@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-09-18T17:35:13+00:00",
+  "total_events": 9,
+  "parsed_events": 9,
+  "hosts": {
+    "web-01": 8,
+    "fw-01": 1
+  },
+  "findings": [
+    {
+      "rule": "SSH-001",
+      "level": "medium",
+      "host": "web-01",
+      "detail": "5 failures in 60 seconds for admin from 198.51.100.23. Investigate possible password guessing.",
+      "evidence": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "rule": "SSH-002",
+      "level": "high",
+      "host": "web-01",
+      "detail": "Successful login after repeated failures for admin from 198.51.100.23. Validate whether authorized.",
+      "evidence": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    }
+  ],
+  "health": [
+    {
+      "host": "web-01",
+      "state": "recent",
+      "age_seconds": 0
+    },
+    {
+      "host": "fw-01",
+      "state": "recent",
+      "age_seconds": 0
+    },
+    {
+      "host": "db-01",
+      "state": "never seen",
+      "age_seconds": null
+    }
+  ]
+}

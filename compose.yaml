@@ -1,0 +1,15 @@
+services:
+  collector:
+    build: .
+    ports:
+      - "127.0.0.1:5514:5514/tcp"
+      - "127.0.0.1:5514:5514/udp"
+    volumes:
+      - sentinel-data:/app/data
+    restart: unless-stopped
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+volumes:
+  sentinel-data:
