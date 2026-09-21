@@ -59,10 +59,10 @@ Correlation keys: reported hostname, username, and source IP in the message. Onl
 
 ## Guides
 
-- [Detailed setup and troubleshooting](docs/SETUP.md)
-- [GitHub publishing and screenshot checklist](docs/GITHUB.md)
-- [Investigation exercise](docs/INVESTIGATION.md)
-- [Validation record](docs/VALIDATION.md)
+- [Detailed setup and troubleshooting](SETUP.md)
+- [GitHub publishing and screenshot checklist](GITHUB.md)
+- [Investigation exercise](INVESTIGATION.md)
+- [Validation record](VALIDATION.md)
 
 ## Tests
 
